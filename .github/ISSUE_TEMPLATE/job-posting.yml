@@ -1,0 +1,128 @@
+name: Job Posting
+description: Post a new open position
+title: "[Team] Role Title - Location"
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the following sections to publish a job posting.
+
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      description: Company name and website.
+      placeholder: "57blocks.com"
+      value: "57blocks.com"
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Office Location
+      description: Office address or "Remote".
+      placeholder: "e.g., Tianfu 5th Street, Jingrong Hub, Chengdu"
+    validations:
+      required: true
+
+  - type: input
+    id: email
+    attributes:
+      label: Resume Submission Email
+      placeholder: "hr@57blocks.com"
+      value: "hr@57blocks.com"
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Information
+      description: Phone number, WeChat, or other contact methods.
+      placeholder: "e.g., 18080037784, 18080038164"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Employment Type
+      options:
+        - Full-time
+        - Part-time
+        - Contract
+        - Internship
+    validations:
+      required: true
+
+  - type: dropdown
+    id: work-model
+    attributes:
+      label: Work Model
+      options:
+        - On-site
+        - Remote
+        - Hybrid
+    validations:
+      required: true
+
+  - type: textarea
+    id: responsibilities
+    attributes:
+      label: Responsibilities
+      description: List the key duties and expectations for this role.
+      placeholder: |
+        1. Full-stack development of web applications.
+        2. Independently read and analyze requirements, understand business logic and design domain models.
+        3. Design and implement APIs, database schemas, and frontend UI.
+        4. Communicate closely with clients and team members to maintain good collaboration.
+        5. Keep code clean and efficient, participate in code reviews, write unit and automation tests.
+        6. Conduct continuous technical research to maintain technical excellence and improve team skills.
+    validations:
+      required: true
+
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: Must-have qualifications and experience.
+      placeholder: |
+        1. Bachelor's degree in Computer Science or a related field.
+        2. Proficient in JavaScript/TypeScript, familiar with HTML5, CSS3, and at least one frontend framework (React/Vue).
+        3. Familiar with Node.js and at least one server-side framework (Express/NestJS).
+        4. Experience with REST API design and development; GraphQL experience is a plus.
+        5. Proficient in at least one database (PostgreSQL, SQL, or NoSQL).
+        6. Proficient with SDLC tools: task management, CI/CD, deployment, cloud services, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: nice-to-have
+    attributes:
+      label: Nice to Have
+      description: Preferred but not required qualifications.
+      placeholder: |
+        1. Ability to use English as a working language.
+        2. Strong research and problem-solving skills.
+        3. Excellent logical thinking and communication skills.
+    validations:
+      required: false
+
+  - type: textarea
+    id: compensation
+    attributes:
+      label: Compensation & Benefits
+      description: Salary range and perks (if applicable).
+    validations:
+      required: false
+
+  - type: textarea
+    id: how-to-apply
+    attributes:
+      label: How to Apply
+      description: Application instructions beyond the default email above.
+      placeholder: "Send your resume to hr@57blocks.com with the subject line: [Position] - Your Name"
+    validations:
+      required: false
