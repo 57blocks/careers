@@ -28,8 +28,7 @@ Visit the [Issues](../../issues?q=is%3Aissue+is%3Aopen) tab to view all current 
 |----------------|----------|
 | Team | `engineering`, `design`, `product`, `operations` |
 | Domain | `ai`, `web3`, `full-stack`, `backend`, `frontend` |
-| Location | `remote`, `on-site`, `hybrid` |
-| Type | `full-time`, `part-time`, `contract`, `internship` |
+| Location | `四川省成都市高新区天府五街200号菁蓉汇6B座7楼`,`四川省成都市高新区天府五街999号港汇天地A栋7层`|
 
 ## How to Apply
 
