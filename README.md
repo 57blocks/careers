@@ -37,26 +37,6 @@ Visit the [Issues](../../issues?q=is%3Aissue+is%3Aopen) tab to view all current 
 3. Read the full job description.
 4. Follow the application instructions at the bottom of each posting.
 
-## Posting Guide (Internal)
-
-### Create a New Job Posting
-
-1. Open a [New Issue](../../issues/new).
-2. Use a clear title format: `[Team] Role Title - Location` (e.g., `[AI] Senior ML Engineer - Remote`).
-3. Include the following sections in the issue body:
-   - **About the Role** — A brief overview of the position and its impact.
-   - **Responsibilities** — Key duties and expectations.
-   - **Requirements** — Must-have qualifications and experience.
-   - **Nice to Have** — Preferred but not required skills.
-   - **Location & Work Model** — On-site, remote, or hybrid; time zone requirements.
-   - **Compensation & Benefits** — Salary range and perks (if applicable).
-   - **How to Apply** — Application instructions and contact information.
-4. Assign appropriate labels for team, domain, location, and employment type.
-
-### Close a Position
-
-Close the issue when the role is filled or no longer available. Add a comment indicating the reason (e.g., `Position filled` or `Hiring paused`).
-
 ## Stay Connected
 
 - Website: [57blocks.com](https://57blocks.com)
